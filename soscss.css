@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;  
+}
+table{
+    text-align: center;
+    border: 5px solid;
+    border: red solid;
+    grid-row: 50px;
+    grid-auto-rows: auto;
+    display: -moz-grid-line;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image: none;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+.navlinks h3{
+    font-family: Arial;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+.navlinks dt{
+    font-family: Verdana;
+    color: blue;
+    text-align: center;
+}
